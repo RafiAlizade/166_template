@@ -1,0 +1,34 @@
+.main__onmedia {
+    width: 100%;
+}
+
+.onmedia__inner {
+    padding-top: 7.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.onmedia__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > h5 {
+        color: var(--black);
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    > a {
+        color: var(--primary400base);
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .3rem;
+    }
+}

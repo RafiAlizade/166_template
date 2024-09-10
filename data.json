@@ -1,0 +1,121 @@
+{
+    "navLinks": [
+        {
+            "header": "Əsas Səhifə",
+            "link": "home",
+            "multiple": false,
+            "multipleCategories": []
+        },
+        {
+            "header": "Şirkətimiz",
+            "link": "",
+            "multiple": true,
+            "multipleCategories": [
+                {
+                    "title": "Mediada biz",
+                    "link": "onmedia"
+                },
+                {
+                    "title": "Bizim Komanda",
+                    "link": "ourteam"
+                }
+            ]
+        },
+        {
+            "header": "Xidmətlər",
+            "link": "",
+            "multiple": true,
+            "multipleCategories": [
+                {
+                    "title": "Transport",
+                    "link": "transport"
+                },
+                {
+                    "title": "Logistika",
+                    "link": "logistics"
+                }
+            ]
+        },
+        {
+            "header": "Blog",
+            "link": "",
+            "multiple": true,
+            "multipleCategories": [
+                {
+                    "title": "Müştəri rəyləri",
+                    "link": "comments"
+                },
+                {
+                    "title": "Namizədlər",
+                    "link": "applicant"
+                }
+            ]
+        },
+        {
+            "header": "Əlaqə",
+            "link": "contact",
+            "multiple": false,
+            "multipleCategories": []
+        }
+    ],
+  "countries": [
+    {
+      "name": "Uzbekistan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1200px-Flag_of_Uzbekistan.svg.png"
+    },
+    {
+      "name": "Kazakhstan",
+      "image": "https://www.akorda.kz/assets/media/flag.jpg"
+    },
+    {
+      "name": "Azerbaijan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/800px-Flag_of_Azerbaijan.svg.png"
+    },
+    {
+      "name": "Poland",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+    },
+    {
+      "name": "Dubai",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1200px-Flag_of_the_United_Arab_Emirates.svg.png"
+    },
+    {
+      "name": "Romania",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1200px-Flag_of_Romania.svg.png"
+    },
+    {
+      "name": "China",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+    }
+  ],
+  "news": [
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    }
+  ]
+}

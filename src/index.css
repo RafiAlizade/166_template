@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Mulish;
+  src: url('./assets/Fonts/Mulish-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Mulish;
+  background-color: var(--white);
+}
+
+:root {
+  --primary100 : rgba(178, 131, 6, 1);
+  --primary200 : rgba(211, 155, 4, 1);
+  --primary300: rgba(236, 172, 0, 1);
+  --primary400base: rgba(255, 204, 77, 1);
+  --primary400: rgba(255, 216, 119, 1);
+  --primary500: rgba(255, 230, 168, 1);
+  --primay600: rgba(255, 241, 206, 1);
+  --primary700: rgba(255, 246, 224, 1);
+  --black: rgba(0, 0, 0, 1);
+  --neutral800: rgba(33, 33, 33, 1);
+  --neutral700: rgba(52, 52, 52, 1);
+  --neutral600: rgba(76, 76, 76, 1);
+  --neutral500: rgba(129, 129, 129, 1);
+  --neutral400: rgba(215, 215, 215, 1);
+  --neutral300: rgba(228, 228, 228, 1);
+  --neutral200: rgba(246, 248, 255, 1);
+  --neutral100: rgba(243, 243, 243, 1);
+  --white: rgba(255, 255, 255, 1);
+  --inputbg: #F3F3F3;
+}
+
+.container {
+  margin-left: 4%;
+  margin-right: 4%;
+}

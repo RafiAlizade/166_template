@@ -1,0 +1,17 @@
+.main__slider {
+    width: 100%;
+}
+
+.slider__container {
+    padding-top: 7.5rem;
+}
+
+.brand__box {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 5.31rem;
+    padding: 0.2rem 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.88rem 0rem rgba(0, 51, 68, 0.16);
+}

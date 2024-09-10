@@ -1,0 +1,121 @@
+.main__hservices {
+    width: 100%;
+}
+
+.hservices__inner {
+    padding-top: 7.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.9rem;
+}
+
+.hservices__top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    > h5 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #001D5B;
+    }
+
+    > a {
+        color: var(--primary400base);
+        font-size: 1.25rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .3rem;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
+
+.hservices__bottom {
+    width: 100%;
+}
+
+.hservices__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 3%;
+    row-gap: 1.5rem;
+}
+
+.hservices__item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 1.3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 10%;
+    background-color: var(--neutral100);
+    border-radius: .5rem;
+}
+
+.hservices__item_content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .7rem;
+    position: relative;
+}
+
+.hservices__item_label {
+    color: #001D5B;
+    font-size: 1.5rem;
+}
+
+.hservices__item_desc {
+    width: 55%;
+    color: #697A9F;
+    font-size: .75rem;
+}
+
+.hservices__item_icon svg {
+    font-size: 2rem;
+    color: var(--primary400base);
+}
+
+.hservices__item_chevron {
+    display: none;
+    color: var(--white);
+    transition: ease-in 0.1s;
+}
+
+.hservices__item:hover .hservices__item_stroke {
+    opacity: 1;
+    transition: ease-in 0.1s;
+}
+
+.hservices__item:hover .hservices__item_chevron {
+    display: block;
+    transition: ease-in 0.1s;
+}
+
+.hservices__item_stroke  {
+    position: relative;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+  transform: translate(0%, -50%);
+  opacity: .7;
+  transition: ease-in 0.1s;
+
+}
+
+.hservices__item_chevron {
+    position: absolute;
+  transform: translate(-0%, -50%);
+  right: 10%;
+  top: 50%;
+}
