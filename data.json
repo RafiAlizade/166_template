@@ -117,5 +117,203 @@
       "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
       "image": "./src/assets/images/Bannernews.svg"
     }
+  ],
+  "media": [
+    {
+      "id": 1,
+      "date": "2021-06-17",
+      "title": "Technology Advancements in 2021",
+      "description": "Exploring the rapid growth of technology and innovations in 2021. Exploring the rapid growth of technology and innojejwkqkjsjkdjkqwejkjkwqejkqewjkqwe",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 2,
+      "date": "2021-07-01",
+      "title": "The Future of AI",
+      "description": "How artificial intelligence is shaping the future of industries worldwide.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 3,
+      "date": "2021-08-05",
+      "title": "Climate Change Impact",
+      "description": "An in-depth look at the environmental changes happening globally.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 4,
+      "date": "2021-09-10",
+      "title": "Space Exploration Breakthroughs",
+      "description": "NASA and SpaceX achieve new milestones in space travel.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 5,
+      "date": "2021-10-12",
+      "title": "Global Health Initiatives",
+      "description": "New efforts to improve health care access worldwide.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 6,
+      "date": "2021-11-14",
+      "title": "Economic Recovery After the Pandemic",
+      "description": "How countries are bouncing back from the global economic downturn.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 7,
+      "date": "2022-01-01",
+      "title": "Advancements in Renewable Energy",
+      "description": "Exploring the latest developments in wind and solar energy.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 8,
+      "date": "2022-02-15",
+      "title": "Global Wildlife Conservation",
+      "description": "Efforts to protect endangered species and their habitats.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 9,
+      "date": "2022-03-20",
+      "title": "Mental Health Awareness",
+      "description": "Breaking the stigma around mental health in modern society.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 10,
+      "date": "2022-04-25",
+      "title": "Digital Education Transformation",
+      "description": "How online learning is transforming education worldwide.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 11,
+      "date": "2022-05-30",
+      "title": "New Developments in Robotics",
+      "description": "Robotics is entering new industries and changing workflows.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 12,
+      "date": "2022-06-15",
+      "title": "The Role of Blockchain in Finance",
+      "description": "Cryptocurrency and blockchain technology are reshaping financial industries.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 13,
+      "date": "2022-07-18",
+      "title": "Sustainable Fashion Trends",
+      "description": "Eco-friendly and sustainable practices are influencing fashion.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 14,
+      "date": "2022-08-22",
+      "title": "Advances in Medical Technology",
+      "description": "How technology is improving diagnosis and treatment.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 15,
+      "date": "2022-09-28",
+      "title": "Artificial Intelligence in Healthcare",
+      "description": "AI is transforming patient care and diagnostics.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 16,
+      "date": "2022-10-05",
+      "title": "Autonomous Vehicles: The Road Ahead",
+      "description": "Self-driving cars are getting closer to reality.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 17,
+      "date": "2022-11-10",
+      "title": "5G Network Expansion",
+      "description": "5G technology is rapidly expanding, promising faster connections.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 18,
+      "date": "2022-12-12",
+      "title": "Smart Cities and IoT",
+      "description": "The Internet of Things is making cities smarter and more efficient.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 19,
+      "date": "2023-01-17",
+      "title": "Green Architecture: Building the Future",
+      "description": "Sustainable building practices are shaping the future of construction.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    },
+    {
+      "id": 20,
+      "date": "2023-02-22",
+      "title": "Breakthroughs in Quantum Computing",
+      "description": "Quantum computing is poised to revolutionize many industries.",
+      "image": "/src/assets/images/news/newsbanner.svg"
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "Samida Qaniyeva",
+      "job": "Korporativ satış şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-1.svg"
+    },
+    {
+      "id": 2,
+      "name": "Altay Nacafov",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/man-1.svg"
+    },
+    {
+      "id": 3,
+      "name": "Jane Doe",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-2.svg"
+    },
+    {
+      "id": 4,
+      "name": "Samida Qaniyeva",
+      "job": "Korporativ satış şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-1.svg"
+    },
+    {
+      "id": 5,
+      "name": "Altay Nacafov",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/man-1.svg"
+    },
+    {
+      "id": 6,
+      "name": "Jane Doe",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-1.svg"
+    },
+    {
+      "id": 7,
+      "name": "Samida Qaniyeva",
+      "job": "Korporativ satış şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-1.svg"
+    },
+    {
+      "id": 8,
+      "name": "Altay Nacafov",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/man-1.svg"
+    },
+    {
+      "id": 9,
+      "name": "Jane Doe",
+      "job": "Hüquq şöbəsinin rəhbəri",
+      "image": "src/assets/images/ourteam/woman-1.svg"
+    }
   ]
 }

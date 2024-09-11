@@ -1,16 +1,16 @@
 import Header from './../../Components/Header/Header'
 import Footer from './../../Components/Footer/Footer'
-import Services from './../../Components/ServicesPage/ServicesPage'
-function Home() {
+import OurTeam from './../../Components/OurTeam/OurTeam'
+function Team() {
   return (
     <>
     <Header />
     <main className="app_main">
-      <Services />
+      <OurTeam />
     </main>
     <Footer />
     </>
   )
 }
 
-export default Home
+export default Team

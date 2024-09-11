@@ -3,6 +3,8 @@ import { ChevronDown, Telephone } from "react-bootstrap-icons";
 import { Link, NavLink } from "react-router-dom";
 import "./ServicesPage.css";
 import banner from './../../assets/images/transport/banner.svg'
+import NavigateComp from './../NavigateComp/NavigateComp';
+
 
 function ServicesPage() {
   const servicesMenu = [
@@ -152,6 +154,10 @@ function ServicesPage() {
   return (
     <section className="services__main">
       <div className="container">
+      <NavigateComp 
+        Parent="Xidmətlər" 
+        Child="Transport" 
+      />
         <div className="services__inner">
           <aside className="services__aside">
             <div className="services__aside_container">

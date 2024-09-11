@@ -1,12 +1,12 @@
 import Header from './../../Components/Header/Header'
 import Footer from './../../Components/Footer/Footer'
-import Services from './../../Components/ServicesPage/ServicesPage'
+import OnMedia from './../../Components/OnMedia/OnMedia'
 function Home() {
   return (
     <>
     <Header />
     <main className="app_main">
-      <Services />
+      <OnMedia />
     </main>
     <Footer />
     </>

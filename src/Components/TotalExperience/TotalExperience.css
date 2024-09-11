@@ -68,3 +68,49 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+/* ! responsive */
+
+@media (max-width: 861px) {
+    .texperience__top {
+        flex-direction: column;
+        align-items: start;
+        gap: .8rem;
+    }
+
+    .texperience__bottom {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 956px) {
+
+    .texperience__count {
+        font-size: 3rem;
+    }
+
+    .texperience__title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .texperience__top_left span {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .texperience__top_right span {       
+        font-size: .88rem;
+        text-align: center;
+    }
+
+    .texperience__count {
+        font-size: 3rem;
+    }
+
+    .texperience__title {
+        font-size: 1rem;
+    }
+}

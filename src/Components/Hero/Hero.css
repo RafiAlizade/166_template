@@ -147,3 +147,52 @@
         margin-left: auto;
     }
 }
+
+@media (max-width: 869px) {
+    .hero__h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .hero__countries {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.5rem;
+    }
+
+    .hero__services {
+        grid-template-areas: 
+        "services"
+        "partners"
+        "comments"
+        "aboutus";
+        height: 100%;
+    }
+
+    .hero__service_box {
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 607px) {
+    .hero__service_box  span {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .hero__h2 {
+        font-size: 2rem;
+    }
+
+    .hero__countries {
+        row-gap: 0.75rem;
+    }
+}
+
+@media (max-width: 491px) {
+    .hero__service_box:nth-child(1) {
+        background-size: 50%;
+    }
+
+}
+

@@ -1,0 +1,16 @@
+.navigatecomp__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.navigatecomp__houseicon {
+    font-size: 1.12rem;
+}
+
+.navigatecomp__chevron {
+    font-size: .6rem;
+}
