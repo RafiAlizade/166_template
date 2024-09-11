@@ -119,3 +119,23 @@ color: #989898;
 .customercomment__container .slick-slide {
     padding: 1rem 4rem; 
 }
+
+/* !responsive */
+
+@media (max-width: 1440px ) {
+    .customercomment__container .slick-slide {
+        padding: .5rem 2rem;
+    }
+}
+
+@media (max-width: 1213px ) {
+    .customercomment__container .slick-slide {
+        padding: .25rem 1rem;
+    }
+}
+
+@media (max-width: 1014px ) {
+    .customercomment__container .slick-slide {
+        padding: .25rem 1rem;
+    }
+}

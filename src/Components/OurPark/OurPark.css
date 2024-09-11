@@ -63,3 +63,22 @@ background-color: var(--white);
 .ourpark__bottom .slick-slide {
     padding: 1rem 4rem;  /* Sağdan ve soldan 10px boşluk */
 }
+
+/* ! responsive */
+
+@media (max-width: 410px) {
+    .ourpark__label {
+        font-size: 2rem;
+    }
+
+    .ourpark__bottom .slick-slide {
+        padding: 0;
+    }
+}
+
+@media (max-width: 743px) {
+
+    .ourpark__bottom .slick-slide {
+        padding: 1rem 2rem;
+    }
+}

@@ -86,3 +86,23 @@
 .footer_bottom span a {
     color: #B38304;
 }
+
+/* ! responsive */
+
+@media (max-width: 679px)  {
+    .footer__top {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }  
+}
+
+@media (max-width: 383px)  {
+    .footer__top {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }  
+
+    .footer_bottom  span {
+        text-align: center;
+    }
+}

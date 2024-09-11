@@ -70,3 +70,15 @@ font-weight: 300;
     align-items: start;
     gap: 1.5rem;
 }
+
+/* ! responsive */
+
+@media (max-width: 825px) {
+    .advertisement__label {
+        font-size: 2.5rem;
+    }
+
+    .advertisement__post {
+        padding: 1.9rem 3% 4rem 7%;
+    }
+}

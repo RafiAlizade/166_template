@@ -26,6 +26,7 @@ function Header() {
   const [navLink, setnavLink] = useState([]);
   const [searchParam, setsearchParam] = useState('')
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [openSubMenu, setOpenSubMenu] = useState(null);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen); 
@@ -51,6 +52,10 @@ function Header() {
     
     getData()
   }, [])
+
+  const toggleSubMenu = (index) => {
+    setOpenSubMenu(openSubMenu === index ? null : index); 
+  };
 
   return (
     <header className='header__main'>
@@ -89,9 +94,9 @@ function Header() {
 
       <div className="header__bottom">
         <div className="container">
-        <div className="header__logo">
+        <Link className="header__logo" to='/'>
               <img src={Logo} alt="" />
-        </div>
+        </Link>
 
         <div className="header__nav">
             <div className="header__search">
@@ -100,10 +105,25 @@ function Header() {
             </div>
 
             <nav className="header__nav_links">
-                {navLink.map((links, index) => (
-                    <Link key={index} to={links.multiple ? '' : links.link}>{links.header} {links.multiple ? <ChevronDown /> : '' }</Link>
-                ))}
-            </nav>
+  {navLink.map((links, index) => (
+    <div key={index}>
+      <Link to={links.multiple ? '#' : links.link} onClick={() => links.multiple && toggleSubMenu(index)}>
+        {links.header} {links.multiple ? <ChevronDown /> : ''}
+      </Link>
+      {links.multiple && openSubMenu === index && (
+        <div className="header__nav__sublinks"> 
+          {links.multipleCategories.map((subLink, subIndex) => (
+            <Link key={subIndex} to={`/${subLink.link}`}>
+              {subLink.title}
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  ))}
+</nav>
+
+            
 
             <div className="header__bookc">
                 <Link to=''>
