@@ -94,28 +94,28 @@
       "label": "Lorem ipsum dolor sit amet consectetur.",
       "url": "/",
       "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
+      "image": "./src/assets/images/Bannernews2.svg"
+    },
+    {
+      "date": "17 june 2021",
+      "label": "Lorem ipsum dolor sit amet consectetur.",
+      "url": "/",
+      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
       "image": "./src/assets/images/Bannernews.svg"
-    },
-    {
-      "date": "17 june 2021",
-      "label": "Lorem ipsum dolor sit amet consectetur.",
-      "url": "/",
-      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
-      "image": "./src/assets/images/Bannernews2.svg"
-    },
-    {
-      "date": "17 june 2021",
-      "label": "Lorem ipsum dolor sit amet consectetur.",
-      "url": "/",
-      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
-      "image": "./src/assets/images/Bannernews2.svg"
-    },
-    {
-      "date": "17 june 2021",
-      "label": "Lorem ipsum dolor sit amet consectetur.",
-      "url": "/",
-      "description": "Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.",
-      "image": "./src/assets/images/Bannernews2.svg"
     }
   ]
 }

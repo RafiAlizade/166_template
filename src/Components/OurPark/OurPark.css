@@ -59,3 +59,7 @@ background-color: var(--white);
     justify-content: center;
     align-items: center;
 }
+
+.ourpark__bottom .slick-slide {
+    padding: 1rem 4rem;  /* Sağdan ve soldan 10px boşluk */
+}

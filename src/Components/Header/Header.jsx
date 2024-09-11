@@ -52,7 +52,7 @@ function Header() {
       <div className="container">
       <div className="header__top">
         <div className="header__top_left">
-          <NavLink to='/'  className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "active" : ""}>Fərdi Müştərilər</NavLink>
+          <NavLink to=''  className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "active" : ""}>Fərdi Müştərilər</NavLink>
           <NavLink to='/corporative' className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "active" : ""}>Korporativ Müştərilər</NavLink>
         </div>
 

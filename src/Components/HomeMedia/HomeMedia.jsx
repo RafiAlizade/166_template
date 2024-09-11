@@ -31,8 +31,8 @@ function HomeMedia() {
                 <div className="onmedia__news">
                     {news.map((news, index) => (
                         <div className="onmedia__news_item" key={index}>
-                            {index === lastIndex ?
-                            <div className="onmedia__news_box">
+                            {index === lastIndex ? (
+                               <div className="onmedia__news_box" style={{ backgroundImage: `url(${news.image})` }}>
                                 <div className="onmedia__news_labels">
                                     <div className="onmedia__news_head">
                                         <span>{news.date}</span>
@@ -42,6 +42,7 @@ function HomeMedia() {
                                     <Link to={news.url}>Ətraflı oxu</Link>
                                 </div>
                             </div>
+                            )
                         : 
                         <div className="onmedia__news_box">
                             <div className="onmedia__news_image">
@@ -49,9 +50,9 @@ function HomeMedia() {
                             </div>
 
                             <div className="onmedia__news_labels">
-                                <span>{news.date}</span>
-                                <h6>{news.label}</h6>
-                                <span>{news.description}</span>
+                                <span className='onmedia__news_date'>{news.date}</span>
+                                <h6 className='onmedia__news_label'>{news.label}</h6>
+                                <span className='onmedia__news_desc'>{news.description}</span>
                             </div>
                         </div>
                         }
