@@ -41,7 +41,7 @@ function BrandCarousel() {
         autoplay: true,
         autoplaySpeed: 2000,
         cssEase: "linear",
-        arrows: false, // Navigasyon oklarını kaldır
+        arrows: false, 
         responsive: [
             {
                 breakpoint: 1024,
