@@ -12,7 +12,7 @@ function HomeMedia() {
         const getNews = async () => {
             const response = await axios.get('http://localhost:3000/news')
             setNews(response.data)
-            setlastIndex(response.data.length - 1) // Veriyi alırken son indeksi ayarla
+            setlastIndex(response.data.length - 1)
         }
         getNews()
     }, [])

@@ -42,7 +42,7 @@ font-weight: 600;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 7%;
+    column-gap: 3%;
     row-gap: 2.5rem;
 }
 
@@ -51,11 +51,12 @@ font-weight: 600;
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: .2rem;
 
     > li {
         border: 0.06rem solid rgb(215, 223, 233);
-        padding: 0.1rem 0.6rem;
-        font-size: 0.88rem;
+        padding: 0.2rem 0.6rem;
+        font-size: 1rem;
         cursor: pointer;
     }
 
@@ -77,6 +78,7 @@ font-weight: 600;
 
     > li.active {
         background-color: var(--primary400base);
+        color: var(--white);
     }
 }
 
@@ -85,4 +87,22 @@ font-weight: 600;
     display: flex;
     justify-content: end;
     padding-top: 2.5rem;
+}
+
+/* ! Responsive */
+
+@media (max-width: 1260px) {
+    .waomedia__bottom_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 853px) {
+    .waomedia__bottom_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .waomedia__pagination {
+        justify-content: start;
+    }
 }

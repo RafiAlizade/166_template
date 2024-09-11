@@ -46,6 +46,8 @@
     flex-direction: row;
     align-items: center;
     gap: .3rem;
+    text-decoration: none;
+    color: var(--black);
 
     >svg {
         width: 24px;
@@ -96,7 +98,7 @@
 
 .header__nav {
     display: grid;
-    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     column-gap: 3rem;
 }
@@ -174,6 +176,13 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 0.88rem;
+    transition: .15s;
+
+}
+
+.header__nav_links div  a:hover {
+    color: var(--primary400base);
+    transition: .15s;
 }
 
 .header__nav__sublinks active {
@@ -182,7 +191,7 @@
 }
 
 .header__bookc a {
-    padding: 0.34rem 0.83rem 0.34rem 0.83rem;
+    padding: 0.54rem 0.83rem 0.35rem 0.83rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,9 +200,22 @@
     color: var(--white);
     text-decoration: none;
     border-radius: .5rem;
+    transition: .2s;
 
     > svg {
         font-size: 1.5rem;
+    transition: .2s;
+    }
+}
+
+.header__bookc a:hover {
+    background-color: var(--black);
+    color: var(--primary400base);
+    transition: .2s;
+
+    > svg {
+        color: var(--primary400base);
+    transition: .2s;
     }
 }
 
@@ -252,12 +274,34 @@
     align-items: start;
     gap: .7rem;
 
-    > a {
+    > div a {
         text-decoration: none;
         font-size: 1rem;
         color: var(--primary100);
         font-weight: 500;
     }
+}
+
+.header__mobile_sublinks {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .3rem;
+    padding: .7rem 0% .7rem 10%;
+
+    > a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .3rem;
+    transition: .15s;
+    }
+}
+
+.header__mobile_sublinks a:hover {
+    color: var(--primary200);
+    transition: .15s;
 }
 
 .header__mobile_bookc a {
@@ -282,7 +326,7 @@
 
 
 
-@media (max-width: 1165px) {
+@media (max-width: 1231px) {
     .header__search , .header__nav_links , .header__bookc {
         display: none;
     }

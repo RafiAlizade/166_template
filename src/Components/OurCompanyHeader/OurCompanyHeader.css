@@ -24,3 +24,20 @@
         color: var(--primary400base);
     }
 }
+
+@media (max-width: 914px) {
+    .companyheader__links {
+        gap: 0;
+    }
+}
+
+@media (max-width: 745px) {
+    .companyheader__navigation {
+        justify-content: start;
+    }
+
+    .companyheader__links {
+        flex-direction: column;
+        align-items: start;
+    }
+}

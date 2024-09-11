@@ -1,5 +1,5 @@
 import './NewsCard.css';
-import { Link } from 'react-router-dom';  // Doğru Link bileşeni
+import { Link } from 'react-router-dom';
 
 function NewsCard({ image, date, title, description, id }) {
   return (

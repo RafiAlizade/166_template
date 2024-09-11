@@ -137,5 +137,25 @@ font-weight: 400;
 }
 
 .ourteam__members_item:hover .ourteam__members_img {
-    filter: grayscale(0%); /* Hover sırasında renkli hale gelir */
+    filter: grayscale(0%);
+}
+
+/* ! Responsive */
+
+@media (max-width: 1025px) {
+    .ourteam__members {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width: 609px) {
+    .ourteam__members {
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+@media (max-width: 392px) {
+    .ourteam__label {
+        font-size: 1.5rem;
+    }
 }

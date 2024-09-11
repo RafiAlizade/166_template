@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink  } from 'react-router-dom';
-import { CreditCard2Front, Search, ChevronDown, Telephone, List } from 'react-bootstrap-icons';
+import { CreditCard2Front, Search, ChevronDown, ChevronRight, Telephone, List } from 'react-bootstrap-icons';
 import flagAz from './../../assets/images/flags/azerbaijan.png';
 import flagRu from './../../assets/images/flags/russia.png';
 import Logo from './../../assets/images/logo.svg'
@@ -67,10 +67,10 @@ function Header() {
         </div>
 
         <div className="header__top_right">
-          <div className="header__top_payment">
+          <Link to='/payment' className="header__top_payment">
             <CreditCard2Front />
             <span>Onlayn ödəniş</span>
-          </div>
+          </Link>
           <div className="header__top_lang">
           <div className="lang-label">
               {langLabel}
@@ -126,7 +126,7 @@ function Header() {
             
 
             <div className="header__bookc">
-                <Link to=''>
+                <Link to='tel:166'>
                 <Telephone />
                 <span>Book a call</span>
                 </Link>
@@ -140,32 +140,43 @@ function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className={`header__mobile_menu ${isMenuOpen ? 'active' : ''}`}>
-         <div className="container">
-          <div className="header__mobile__nav">
-            <div className="header__mobile_search">
-            <Search />
-            <input type="text" name="mobile_search_inp" onChange={inputValueChanger} placeholder="Search" />
-          </div>
+  <div className={`header__mobile_menu ${isMenuOpen ? 'active' : ''}`}>
+    <div className="container">
+      <div className="header__mobile__nav">
+        <div className="header__mobile_search">
+          <Search />
+          <input type="text" name="mobile_search_inp" onChange={inputValueChanger} placeholder="Search" />
+        </div>
 
-          <nav className="header__mobile_nav_links">
-            {navLink.map((links, index) => (
-              <Link key={index} to={links.multiple ? '' : links.link}>
+        <nav className="header__mobile_nav_links">
+          {navLink.map((links, index) => (
+            <div key={index}>
+              <Link to={links.multiple ? '#' : links.link} onClick={() => links.multiple && toggleSubMenu(index)}>
                 {links.header} {links.multiple ? <ChevronDown /> : ''}
               </Link>
-            ))}
-          </nav>
+              {links.multiple && openSubMenu === index && (
+                <div className="header__mobile_sublinks"> 
+                  {links.multipleCategories.map((subLink, subIndex) => (
+                    <Link key={subIndex} to={`/${subLink.link}`}>
+                      <ChevronRight /> {subLink.title}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </nav>
 
-          <div className="header__mobile_bookc">
-            <Link to="">
-              <Telephone />
-              <span>Book a call</span>
-            </Link>
-          </div>
-          </div>
-         </div>
+        <div className="header__mobile_bookc">
+          <Link to="tel:166">
+            <Telephone />
+            <span>Book a call</span>
+          </Link>
         </div>
-      )}
+      </div>
+    </div>
+  </div>
+)}
       
     </header>
   );
