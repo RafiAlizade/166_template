@@ -150,11 +150,12 @@
     width: 10rem;
     background-color: var(--white);
     border-top: 2px solid var(--primary400base);
+    border-left: 2px solid var(--primary400base);
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: .7rem;
+    gap: 1.1rem;
     > a {
         color: var(--white);
         font-size: .9rem !important;

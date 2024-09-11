@@ -2,7 +2,7 @@
     "navLinks": [
         {
             "header": "Əsas Səhifə",
-            "link": "home",
+            "link": "/",
             "multiple": false,
             "multipleCategories": []
         },
@@ -13,12 +13,16 @@
             "multipleCategories": [
                 {
                     "title": "Mediada biz",
-                    "link": "onmedia"
+                    "link": "media"
                 },
                 {
                     "title": "Bizim Komanda",
-                    "link": "ourteam"
-                }
+                    "link": "team"
+                },
+                {
+                  "title": "Haqqımızda",
+                  "link": "aboutus"
+              }
             ]
         },
         {
@@ -28,7 +32,7 @@
             "multipleCategories": [
                 {
                     "title": "Transport",
-                    "link": "transport"
+                    "link": "services"
                 },
                 {
                     "title": "Logistika",
